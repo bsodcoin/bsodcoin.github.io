@@ -15,7 +15,7 @@
             line-height: 1.5;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             padding-top: 10px;
             text-align: left;
@@ -38,6 +38,21 @@
             margin-bottom: 1px; /* Space below the header */
             text-align: center;
         }
+	.blinking-cursor {
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
     </style>
 </head>
 <body>
@@ -56,6 +71,8 @@
         <p>*** Token address 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</p>
         
         <p>*** Dev address 0xAe55196B8072544b1c2Ef32d2dD77BBCc3DfabaA</p>
+
+	<p>Press F5 to continue <span class="blinking-cursor">_</span></p>
         
     </div>
     <div id="ascii-container" class="ascii-art">
