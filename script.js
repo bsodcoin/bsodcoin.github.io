@@ -1,5 +1,5 @@
 // Define an array with the filenames of the ASCII art files
-const asciiFiles = ['ascii1.txt', 'ascii2.txt', 'ascii3.txt', 'ascii4.txt', 'ascii5.txt', 'ascii6.txt'];
+const asciiFiles = ['ascii1.txt', 'ascii2.txt', 'ascii3.txt', 'ascii4.txt', 'ascii5.txt', 'ascii6.txt', 'ascii7.txt'];
 
 // Function to fetch and display a random ASCII art file
 function displayRandomAsciiArt() {
